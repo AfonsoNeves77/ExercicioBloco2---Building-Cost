@@ -19,7 +19,7 @@ public class Main {
                 System.out.println("Enter paint's price per liter: ");
                 ppl = sc.nextDouble();
                 sc.nextLine();
-                System.out.println("Enter paint's capacity per square meter: ");
+                System.out.println("Enter paint's capacity (per square meter): ");
                 pm2 = sc.nextDouble();
                 sc.nextLine();
                 System.out.println("Enter painter's salary/day: ");
