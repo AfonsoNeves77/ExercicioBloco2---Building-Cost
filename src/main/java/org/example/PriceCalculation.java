@@ -3,19 +3,23 @@ package org.example;
 public class PriceCalculation {
 
     public static int numberOfPaintors(double area){
-        if (area > 0 ){
-            if (area >= 100){
-                if (area >= 300){
-                    if(area >= 1000){
-                        return 4;
-                    }
-                    return 3;
-                }
+        if(area <= 0 ){
+            return -1;
+        }
+        else {
+            if (area < 100) {
+                return 1;
+            }
+            if(area < 300){
                 return 2;
             }
-            return 1;
+
+            if(area < 1000){
+                return 3;
+            }
+            return 4;
         }
-        return -1;
+
     }
 
     public static double costHandWork(double area, double salaryPaintor){
