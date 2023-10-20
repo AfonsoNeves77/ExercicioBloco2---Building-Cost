@@ -13,7 +13,7 @@ public class Main {
         double area,ppl,pm2,slary;
 
             do{
-                System.out.println("Enter area: ");
+                System.out.println("area: ");
                 area = sc.nextDouble();
                 sc.nextLine();
                 System.out.println("Enter paint's price per liter: ");
