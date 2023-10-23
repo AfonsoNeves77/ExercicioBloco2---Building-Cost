@@ -9,14 +9,14 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("calculation tool...");
+        System.out.println("Welcome, calculation tool...");
         double area,ppl,pm2,slary;
 
             do{
                 System.out.println("area: ");
                 area = sc.nextDouble();
                 sc.nextLine();
-                System.out.println("Enter paint's price per liter: ");
+                System.out.println("Enter paint's price/liter: ");
                 ppl = sc.nextDouble();
                 sc.nextLine();
                 System.out.println("Enter paint's capacity (per square meter): ");
