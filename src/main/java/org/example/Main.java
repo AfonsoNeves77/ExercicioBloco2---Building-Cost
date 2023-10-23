@@ -9,7 +9,8 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Welcome, YOUR calculation tool...");
+        System.out.println("Calculation tool...");
+
         double area,ppl,pm2,slary;
 
             do{
