@@ -7,7 +7,7 @@ public class PriceCalculation {
             return -1;
         }
         else {
-            if (area < 200) {
+            if (area < 100) {
                 return 1;
             }
             if(area < 300){
